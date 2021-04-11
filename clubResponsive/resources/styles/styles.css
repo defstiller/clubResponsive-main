@@ -70,6 +70,9 @@ nav a {
     padding: 3%;
     margin-left: 15%;
 }
+/* NAVIGATION MAIN IMAGE ENDS */
+
+/* WHAT WE DO / WHO WE ARE / WHY JOIN STARTS */
 #bodyText {
     padding: 3% 0 ;
     display: inline-flex;
@@ -87,6 +90,10 @@ nav a {
     max-width:100%;
 }
 
+/* WHAT WE DO / WHO WE ARE / WHY JOIN ENDS */
+
+
+/* OUR SPONSOR STARTS */
 #ourSponsor h1 {
     text-align: center;
     font-size: 5rem;
@@ -115,6 +122,9 @@ nav a {
     cursor:pointer;
     outline: 0;
 }
+/* OUR SPONSOR STARTS */
+
+/* FOOTER BLOCK STARTS */
 aside {
     height:3rem;
     background-color: black;
@@ -123,6 +133,4 @@ aside p {
     color: white;
     padding-top: 1rem;
 }
-test {
-    sadfasdf
-}
+
