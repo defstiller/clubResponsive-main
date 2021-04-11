@@ -34,7 +34,11 @@ nav a {
 }
 #socialIcons img {
     padding-right: 15px;
-} /* NAVIGATION ENDS */
+} 
+#hamburgerMenu {
+    display: none; 
+}
+/* NAVIGATION ENDS */
 
 /* NAVIGATION MAIN IMAGE STARTS */
 
@@ -122,7 +126,7 @@ nav a {
     cursor:pointer;
     outline: 0;
 }
-/* OUR SPONSOR STARTS */
+/* OUR SPONSOR ENDS */
 
 /* FOOTER BLOCK STARTS */
 aside {
@@ -134,3 +138,119 @@ aside p {
     padding-top: 1rem;
 }
 
+/* MEDIA */ 
+@media screen and (min-width:2200px){ /* !!!! Large Monitors !!! */
+    /*nav starts*/
+    nav { 
+        height: 6rem;
+    }
+    #navCenter {
+        font-size: 2rem;
+    }
+    nav h1 {
+        font-size: 3.2rem;
+    } 
+    /*nav ends*/
+
+    /* NAVIGATION MAIN IMAGE STARTS */
+    #bodyText h1 {
+        font-size: 3.2rem;
+    }
+
+    #bodyText h2  {
+        font-size: 1.5rem;
+    }
+    #buttonContainer {
+        width: 40%;
+        padding: 3%;
+        margin-left: 13%;
+    }
+    /* NAVIGATION MAIN IMAGE ENDS */
+
+    /* OUR SPONSOR STARTS */
+    #sponsorImg p {
+        font-size: 3rem;
+    }
+    #sponsorImg button {
+        font-size: 2rem;
+        border-radius: 70%;
+        margin-top: 2rem;
+        padding: 2.2rem;
+    }
+    /* OUR SPONSOR ENDS */
+    
+}
+
+@media screen and (max-width:1440px){ /* !!! LAPTOPS !!! */
+    /* NAVIGATION MAIN IMAGE STARTS */
+    #headerMain {
+        color: white;
+    }
+    #headerMain h1 {
+        font-size: 5rem;
+        padding: 20% 0 3% 5%;
+     }
+    #buttonContainer {
+        margin-left: 20%;
+    }
+    /* NAVIGATION MAIN IMAGE ENDS */
+
+}
+@media screen and (max-width:780px){  /* !!! TABLETS !!! */
+    #headerMain h2 {
+        display: none;
+    }
+    #buttonContainer {
+        margin-left: 2%;
+    }
+    #bodyText h2 {
+        margin-bottom: 10px;
+    }
+}
+@media screen and (max-width:430px) { /* !!! LARGE MOBILE !!! */
+    #navCenter, #socialIcons {
+        display: none;
+    }
+    nav h1 {
+        padding-top: 4%;
+        padding-left: 10px;
+    }
+    #hamburgerMenu {  /* !!! HAMBURGER MENU !!! */
+        background-color: black;
+        display:inline-flex;
+        background-image: url(../img/iconfinder_shopping_red_outline_menu_3524359.png);
+        float: right;
+        margin-top: -65px;
+        margin-right: 5%;
+        height: 50px;
+        width: 50px;
+        border: 0;
+        outline: none;
+    }
+    #headerMain {
+        text-align: center;
+    }
+    #headerMain h1 {
+        font-size: 4rem;
+    }
+    #headerMain button {
+        margin-top: 400px;
+        margin-left: 55%;
+        border-radius: 20%;
+    }
+    #bodyText { /* WHO WE ARE / WHAT WE DO / WHY JOIN US */
+        display: block;
+    }
+    #weAre, #weDo, #whyJoin {
+        max-width: 100%;
+        font-size: large;
+    }
+
+    #ourSponsor button { /* SPONSOR BUTTON */
+        font-size: 2.5rem;
+        border-radius: 30%;
+        margin-top: 10rem;
+        padding: 2.2rem;
+    }
+
+}
