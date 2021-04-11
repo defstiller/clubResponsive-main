@@ -196,7 +196,7 @@ aside p {
     /* NAVIGATION MAIN IMAGE ENDS */
 
 }
-@media screen and (max-width:780px){  /* !!! TABLETS !!! */
+@media screen and (max-width:780px){  /* !!! LARGE TABLETS !!! */
     #headerMain h2 {
         display: none;
     }
@@ -207,9 +207,20 @@ aside p {
         margin-bottom: 10px;
     }
 }
+@media screen and (max-width:760px){ /* !!! SMALL TABLETS !!! */
+    nav {
+        height: 7.5rem;
+    }
+    #navCenter {
+        padding-top: 10px;
+    }
+}
 @media screen and (max-width:430px) { /* !!! LARGE MOBILE !!! */
     #navCenter, #socialIcons {
         display: none;
+    }
+    nav {
+        height: 4rem;
     }
     nav h1 {
         padding-top: 4%;
@@ -253,4 +264,26 @@ aside p {
         padding: 2.2rem;
     }
 
+}
+@media screen and (max-width:380px){ /* !!! MEDIUM MOBILE !!! */
+    #headerMain h1 {
+        padding-left: 5px;
+    }
+    #weAre h2, #weDo h2 , #whyJoin h2 {
+        padding: 0 5px;
+    }
+}
+@media screen and (max-width:350px) { /* !!! SMALL MOBILE !!! */
+    nav h1 {
+        font-size: 1.5rem;
+        padding-top: 1.2rem;
+    }
+    #hamburgerMenu { 
+        margin-top: -60px;
+        margin-right: 5%;
+
+    }
+    #headerMain button {
+        margin-left: 40%;
+    }
 }
